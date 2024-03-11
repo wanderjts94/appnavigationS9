@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/principalFragment">
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="pe.edu.idat.appnavigations9.PrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal" />
+    <fragment
+        android:id="@+id/notificacionesFragment"
+        android:name="pe.edu.idat.appnavigations9.NotificacionesFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/galeriaFragment"
+        android:name="pe.edu.idat.appnavigations9.GaleriaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_galeria" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="pe.edu.idat.appnavigations9.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/ayudaFragment"
+        android:name="pe.edu.idat.appnavigations9.AyudaFragment"
+        android:label="@string/Ayuda"
+        tools:layout="@layout/fragment_ayuda" />
+</navigation>
